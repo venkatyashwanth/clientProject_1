@@ -1,0 +1,9 @@
+/* placeholder */
+:root {
+  --header-height: 3rem;
+  --nav-width: 8rem;
+  --z-fixed:100 ; }
+
+.footer-bg {
+  font-family: "Montserrat-regular", sans-serif;
+  background-color: #000; }

@@ -1,0 +1,37 @@
+ul{
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    li{
+        font-family: $primary-font;
+    }
+}
+
+.main-bg .total-score {
+    @include custom-tablet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+   
+}
+
+.main-bg .score-activity {
+    @include custom-tablet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+}
+
+.main-bg .main-form {
+    @include custom-tablet{
+    height: 100vh;
+    }
+}
+
+

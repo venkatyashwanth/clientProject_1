@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony TV</title>
+    <link rel="stylesheet" href="assests/css/select2.css">
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/layout/header.css">
+    <link rel="stylesheet" href="assests/css/pages/homepage.css">
+    <link rel="stylesheet" href="assests/font-awesome/css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"> -->
+</head>
+<body>
+
+   <section class="main-bg">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="logo">
+                    <img src="assests/images/logo.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 ">
+                    <div class="title-area">
+                        <h1 class="page-title">Inter School <span>Quiz Contest</span></h1>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row main-form">
+                <div class="col-lg-7 col-md-6 mobile-order-2 score-activity">
+                    <div class="image-area">
+                        <img src="assests/images/student.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mobile-order-1" >
+                    <div class="total-score">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-7 margin-bottom-3">
+                                    <div class="form-floating ">
+                                        <input type="text" class="form-control" id="name" placeholder="Name">
+                                        <label for="name">Name</label>
+                                        <p class="error-msg"><img src="assests/images/error.png" alt=""> Error message</p>
+                                      </div>
+                                </div>
+                                <div class="col-5 margin-bottom-3">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" id="age" placeholder="Age">
+                                        <label for="age">Age</label>
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                </div>
+                                <div class="col-12 margin-bottom-3">
+                                    <div class="form-floating ">
+                                        <input type="email" class="form-control" id="mail" placeholder="Your Mail ID">
+                                        <label for="mail">Your Mail ID</label>
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                </div>
+                                <div class="col-12 margin-bottom-3">
+                                    <div class="dropdown-select">
+                                        <!-- <label for="mail">Your Mail ID</label> -->
+                                        <select id="schools" class="js-schools form-select">
+                                            <option value="0">Select Your School</option>
+                                            <option>Java</option>
+                                            <option>Javascript</option>
+                                            <option>PHP</option>
+                                            <option>Visual Basic</option>
+                                          </select>
+                                        
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                </div>
+                                <!-- <div class="col-12 margin-bottom-3">
+                                    <div class="dropdown-select">
+                                        <label for="mail">Your Mail ID</label>
+                                        <select class="form-select">
+                                            <option value="0">Select Your School</option>
+                                            <option>Java</option>
+                                            <option>Javascript</option>
+                                            <option>PHP</option>
+                                            <option>Visual Basic</option>
+                                          </select>
+                                        
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                      
+                                </div> -->
+                                <div class="col-6 margin-bottom-3">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" id="mobile" placeholder="Mobile No.">
+                                        <label for="mobile">Mobile No.</label>
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                </div>
+                                <div class="col-6 margin-bottom-3">
+                                    <div class="form-floating">
+                                        <input type="number" class="form-control" id="std" placeholder="Std">
+                                        <label for="std">Std</label>
+                                        <p class="error-msg">Error message</p>
+                                      </div>
+                                </div>
+                                <div class="row margin-bottom-4">
+                                    <div class="col-3  player-radio">
+                                        <label for="InputGroup" class="player-label">Player</label>
+                                        <div class="InputGroup" > 
+                                            <input type="radio" name="player" id="player_1" value="1" checked />
+                                            <label for="player_1">1</label>
+                                           
+                                            <input type="radio" name="player" id="player_2" value="2" />
+                                            <label for="player_2">2</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-9 ">
+                                        <div class="form-floating d-none" id="player_2email">
+                                            <input type="email" class="form-control" id="player1-mail" placeholder="Std">
+                                            <label for="player1-mail">2nd Player mail ID</label>
+                                            
+                                          </div>
+                                    </div>
+                                    <p class="error-msg">Error message</p>
+                                </div>
+                                <div class="col-12 margin-bottom-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="tandc">
+                                        <label class="form-check-label" for="tandc">
+                                           <a href="">I Agree To The Terms & Conditions</a> 
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 margin-bottom-3">
+                                    Captcha code here
+                                </div>
+                                <div class="col-6 margin-bottom-3">
+                                    <div class="button-area">
+                                        <div class="full-btn id-btn">
+                                            <button class="btn primary-btn">Genrate your ID</button>
+                                            <img class="btn-image" src="assests/images/btn-image.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 margin-bottom-3">
+                                   <div class="button-area">
+                                        <div class="full-btn">
+                                            <button class="btn secondary-btn">Enter Code</button>
+                                            <img class="btn-image" src="assests/images/btn-image.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="footer">
+    <div class="container">
+        <div class="row pt-3 pb-3">
+            <div class="col-md-8 col-6">
+                <p class ="copyright">© 2022, Sony Pictures Networks India. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="d-flex justify-content-end">
+                    <ul class="footer-links">
+                        <li> <a href="">Privacy Policy</a> </li>
+                        <li> <a href="">Terms of Use</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+    <script src="assests/js/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assests/js/select2.js"></script>
+    <script src="assests/js/main.js"></script>
+    <script>
+        $("#schools").select2({
+  placeholder: "Select Your School",
+  allowClear: true
+});
+    </script>
+
+
+</body>
+</html>

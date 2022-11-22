@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony TV</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="assests/css/layout/header.css">
+    <link rel="stylesheet" href="assests/css/pages/homepage.css">
+    <link rel="stylesheet" href="assests/font-awesome/css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"> -->
+</head>
+<body>
+
+   <section class="main-bg">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="logo">
+                    <img src="assests/images/logo.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-12 ">
+                    <div class="title-area">
+                        <h1 class="page-title">Inter School <span>Quiz Contest</span></h1>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row main-form">
+                <div class="col-lg-7 col-md-6 mobile-order-2 score-activity">
+                    <div class="image-area">
+                        <img src="assests/images/student.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mobile-order-1" >
+                    <div class="otp-area d-flex justify-content-center align-items-center">
+                        <div class="total-score">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="otp-title">
+                                            <h2>Enter Code</h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 otp-margin">
+                                        <div class="otp-box">
+                                            <input type="text" class="form-control otp-field" oninput='digitValidate(this)' onkeyup='tabChange(1)'
+                                                maxlength=1>
+                                            <input type="text" class="form-control otp-field" oninput='digitValidate(this)' onkeyup='tabChange(2)'
+                                                maxlength=1>
+                                            <input type="text" class="form-control otp-field" oninput='digitValidate(this)' onkeyup='tabChange(3)'
+                                                maxlength=1>
+                                            <input type="text" class="form-control otp-field" oninput='digitValidate(this)' onkeyup='tabChange(4)'
+                                                maxlength=1>
+                                            
+                                        </div>
+                                        <div class="error-msg d-block">Error message</div>
+                                    </div>
+                                    <div class="col-md-6 offset-md-0 offset-3 col-6 margin-bottom-3 mobile-button">
+                                        <div class="button-area">
+                                             <div class="full-btn">
+                                                 <button class="btn secondary-btn">Start Quiz</button>
+                                                 <img class="btn-image" src="assests/images/btn-image.png" alt="">
+                                             </div>
+                                         </div>
+                                    </div>
+                                    </div>
+                               </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section class="footer">
+    <div class="container">
+        <div class="row pt-3 pb-3">
+            <div class="col-md-8 col-6">
+                <p class ="copyright">© 2022, Sony Pictures Networks India. All Rights Reserved.</p>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="d-flex justify-content-end">
+                    <ul class="footer-links">
+                        <li> <a href="">Privacy Policy</a> </li>
+                        <li> <a href="">Terms of Use</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script> -->
+    <script src="assests/js/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="assests/js/main.js"></script>
+   
+
+
+</body>
+</html>

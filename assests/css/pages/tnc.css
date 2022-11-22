@@ -1,0 +1,1796 @@
+@font-face {
+  font-family: "proxima_novabold";
+  src: url("../../fonts/ProximaNova-Bold.eot");
+  src: url("../../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("../../fonts/ProximaNova-Bold.woff") format("woff"),
+    url("../../fonts/ProximaNova-Bold.ttf") format("truetype"),
+    url("../../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "proxima_novasemibold";
+  src: url("../../fonts/ProximaNova-Semibold.eot");
+  src: url("../../fonts/ProximaNova-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("../../fonts/ProximaNova-Semibold.woff") format("woff"),
+    url("../../fonts/ProximaNova-Semibold.ttf") format("truetype"),
+    url("../../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "proxima_novaregular";
+  src: url("../../fonts/ProximaNova-Regular.eot");
+  src: url("../../fonts/ProximaNova-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../../fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("../../fonts/ProximaNova-Regular.woff") format("woff"),
+    url("../../fonts/ProximaNova-Regular.ttf") format("truetype"),
+    url("../../fonts/ProximaNova-Regular.svg#ProximaNova-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'RealityCheck';
+  src: url('../fonts/RealityCheckDEMO-Regular.eot');
+  src: url('../../fonts/RealityCheckDEMO-Regular.eot');
+  src: url('../fonts/RealityCheckDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/RealityCheckDEMO-Regular.woff2') format('woff2'),
+      url('../fonts/RealityCheckDEMO-Regular.woff') format('woff'),
+      url('../fonts/RealityCheckDEMO-Regular.ttf') format('truetype'),
+      url('../fonts/RealityCheckDEMO-Regular.svg#RealityCheckDEMO-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+
+
+@font-face {
+  font-family: 'RealityCheck';
+  src: url('../../fonts/RealityCheckDEMO-Regular.eot');
+  src: url('../../fonts/RealityCheckDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../../fonts/RealityCheckDEMO-Regular.woff2') format('woff2'),
+      url('../../fonts/RealityCheckDEMO-Regular.woff') format('woff'),
+      url('../../fonts/RealityCheckDEMO-Regular.ttf') format('truetype'),
+      url('../../fonts/RealityCheckDEMO-Regular.svg#RealityCheckDEMO-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* mobile responsive screen size */
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 7px;
+    scroll-behavior: smooth;
+  }
+  .context {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  .contextContainer::after {
+    width: 280px;
+  }
+
+  .subcontext {
+    margin-top: 30px;
+  }
+
+  .subcontext .description {
+    font-size: 1.8rem;
+    /* line-height: 25px; */
+  }
+  .teamsContainer {
+    max-width: 320px;
+    margin-top: 30px;
+  }
+  .teamsContainer h2 {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0c6386;
+  }
+
+  .teamsContainer .btnContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 16px;
+  }
+
+  .teamsContainer .btnContainer button {
+    background-color: #d0de4f;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    font-family: proxima_novabold, sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .tncpage {
+    background-image: url(../../images/mobile_bg_section1.png) !important;
+    background-position: unset;
+    height: 100%;
+  }
+
+  .tncpage .main-area{
+    height: unset;
+  }
+
+  .tncpage .main-area .title {
+    height: unset;
+}
+
+
+  .tncheading{
+    padding-top: 172px;
+  }
+
+  .instructionsContainer {
+    background-image: url(../../images/instruction_bg.png);
+    /* height: 80vh; */
+    width: 100vw;
+    /* overflow: hidden; */
+  }
+
+  .instructionsContainer {
+    /* background-image: url(../../images/instruction_bg.png); */
+    background-image: url(../../images/mobile_bg_section2.png);
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 200vh;
+    width: 100vw;
+  }
+  .instructionsContainer .instructionsBox {
+    position: relative;
+  }
+
+  /* step-1 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 34px 67px 34px; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne {
+    position: absolute;
+    bottom: -44px;
+    left: -25px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  /* step-2 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 40px 30px 41px; */
+    /* max-width: 392px; */
+    /* border-radius: 50px 0px 130px 0px; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .steptwoInstruction_para1 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo {
+    position: absolute;
+    bottom: -18px;
+    left: 24px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  /* step-3 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction {
+    position: absolute;
+    top: 506px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 26px 35px 24px;
+max-width: 400px;
+border-radius: 50px 0 130px 0; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree {
+    position: absolute;
+    bottom: -45px;
+    right: -4px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para1,
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para2 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer .instructionsBox{
+    display: flex;
+    /* justify-content: end; */
+    justify-content: center;
+    align-items: end;
+    height: 285vh;
+    margin-top: 30px;
+  }
+
+  .instructionsContainer .instructionsBox .instructions {
+    max-width: 420px;
+    padding: 20px;
+    margin-bottom: 270px;
+  }
+  .instructionsContainer .instructionsBox .instructions h2 {
+    color: #d0de4f;
+    /* font-size: 42px; */
+    font-size: 36px;
+    line-height: 65px;
+  }
+  
+  .instructionsContainer .instructionsBox .instructions p {
+    font-family: proxima_novasemibold, sans-serif;
+    color: white;
+    /* font-size: 20px; */
+    font-size: 18px;
+    text-align: justify;
+    line-height: 20px;
+  }
+}
+
+/* max-mobile to ipad max*/
+@media (min-width: 577px) and (max-width: 991px) {
+  html {
+    font-size: 8px;
+    scroll-behavior: smooth;
+  }
+  .context {
+    font-size: 3rem;
+    line-height: 30px;
+  }
+  .contextContainer {
+    position: relative;
+  }
+  .contextContainer::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7070704d;
+    height: 1px;
+    width: 570px;
+  }
+  .subcontext {
+    margin-top: 30px;
+  }
+
+  .subcontext .description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .teamsContainer {
+    max-width: 570px;
+    margin-top: 30px;
+  }
+
+  .teamsContainer h2 {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0c6386;
+  }
+
+  /* .teamsContainer .btnContainer{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .teamsContainer .btnContainer button {
+    background-color: #d0de4f;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    font-family: proxima_novabold, sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+
+  .tncpage {
+    background-image: url("../../images/desktop_bg_section1.png");
+    height: 125vh;
+  }
+
+  .tncheading{
+    padding-top: 260px;
+  }
+
+  .instructionsContainer {
+    /* background-image: url(../../images/instruction_bg.png); */
+    background-image: url(../../images/medium_bg_section2.png);
+    background-size: cover;
+    /* background-position: center; */
+    min-height: 200vh;
+    width: 100vw;
+  }
+
+  .instructionsContainer .instructionsBox {
+    position: relative;
+  }
+
+  /* step-1 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 34px 67px 34px; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne {
+    position: absolute;
+    bottom: -44px;
+    left: -25px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    /* color: #107f3f59; */
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  /* step-2 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction {
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 40px 30px 41px; */
+    /* max-width: 392px; */
+    /* border-radius: 50px 0px 130px 0px; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .steptwoInstruction_para1 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo {
+    position: absolute;
+    bottom: -18px;
+    left: 24px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  /* step-3 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction {
+    position: absolute;
+    top: 506px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    /* padding: 26px 26px 35px 24px;
+max-width: 400px;
+border-radius: 50px 0 130px 0; */
+    padding: 20px;
+    /* max-width: 290px; */
+    width: 280px;
+    /* border-radius: 50px 0px 130px 0px; */
+    border-radius: 50px 0px 75px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree {
+    position: absolute;
+    bottom: -45px;
+    right: -4px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para1,
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para2 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree
+    img {
+    width: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -54px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3 {
+    font-size: 28px;
+    /* color: #107f3f59; */
+    color: #ffffff7a;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 60px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer .instructionsBox{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 280vh;
+    margin-top: 30px;
+  }
+
+  .instructionsContainer .instructionsBox .instructions {
+    max-width: 695px;
+    /* margin-bottom: 60px; */
+    margin-bottom: 380px;
+  }
+  .instructionsContainer .instructionsBox .instructions h2 {
+    color: #d0de4f;
+    font-size: 42px;
+    line-height: 65px;
+  }
+  
+  .instructionsContainer .instructionsBox .instructions p {
+    font-family: proxima_novasemibold, sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px;
+  }
+}
+
+/* destop-min to desktop-med */
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 8px;
+    scroll-behavior: smooth;
+  }
+  .tncpage {
+    background-image: url("../../images/desktop_bg_section1.png");
+    height: 125vh;
+  }
+
+  .tncheading{
+    padding-top: 260px;
+  }
+  .context {
+    font-size: 3rem;
+    line-height: 30px;
+  }
+  .contextContainer {
+    position: relative;
+  }
+  .contextContainer::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7070704d;
+    height: 1px;
+    width: 614px;
+  }
+  .subcontext {
+    margin-top: 30px;
+  }
+
+  .subcontext .description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .teamsContainer {
+    max-width: 980px;
+    margin-top: 30px;
+  }
+
+  .teamsContainer h2 {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0c6386;
+  }
+
+  /* .teamsContainer .btnContainer{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .teamsContainer .btnContainer button {
+    background-color: #d0de4f;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    font-family: proxima_novabold, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .instructionsContainer {
+    /* background-image: url(../../images/instruction_bg.png); */
+    background-image: url(../../images/desktop_bg_section2.png);
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .instructionsContainer .instructionsBox {
+    position: relative;
+  }
+
+  /* step-1 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 34px 67px 34px;
+    max-width: 290px;
+    border-radius: 50px 0px 130px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne {
+    position: absolute;
+    bottom: -56px;
+    left: -35px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  /* step-2 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction {
+    position: absolute;
+    top: -22px;
+    left: 48%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 40px 30px 41px;
+    max-width: 320px;
+    border-radius: 50px 0px 130px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .steptwoInstruction_para1 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo {
+    position: absolute;
+    bottom: -30px;
+    left: 35px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  
+  /* step-3 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction {
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    /* left: 50%;
+transform: translatex(-50%); */
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 26px 35px 24px;
+    max-width: 320px;
+    border-radius: 50px 0 130px 0;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree {
+    position: absolute;
+    bottom: -45px;
+    right: -4px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para1,
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para2 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer .instructionsBox{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+  }
+  
+.instructionsContainer .instructionsBox .instructions {
+  max-width: 695px;
+  margin-bottom: 60px;
+}
+.instructionsContainer .instructionsBox .instructions h2 {
+  color: #d0de4f;
+  font-size: 42px;
+  line-height: 65px;
+}
+
+.instructionsContainer .instructionsBox .instructions p {
+  font-family: proxima_novasemibold, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 20px;
+}
+}
+
+/* desktop-med to maxscreen-sizes */
+@media (min-width: 1200px) {
+  html {
+    font-size: 8px;
+    scroll-behavior: smooth;
+  }
+  /* .tncpage {
+    height: 120vh;
+  } */
+
+  .tncmain, .tncsecondary{
+    font-size: 67px !important;
+  }
+
+  .tncpage {
+    background-image: url("../../images/desktop_bg_section1.png");
+    height: 150vh;
+  }
+
+  .tncheading{
+    padding-top: 260px;
+  }
+
+  .context {
+    font-size: 3rem;
+    line-height: 30px;
+  }
+  .contextContainer {
+    position: relative;
+  }
+  .contextContainer::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7070704d;
+    height: 1px;
+    width: 614px;
+  }
+
+  .subcontext {
+    margin-top: 30px;
+  }
+
+  .subcontext .description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .teamsContainer {
+    max-width: 1280px;
+    margin-top: 60px;
+    /* margin-bottom: 240px; */
+  }
+
+  .teamsContainer h2 {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #0c6386;
+  }
+
+  .teamsContainer .btnContainer button {
+    background-color: #d0de4f;
+    border-radius: 24px;
+    border: none;
+    padding: 15px 20px;
+    font-family: proxima_novabold, sans-serif;
+    font-size: 24px;
+  }
+
+  .instructionsContainer {
+    /* background-image: url(../../images/instruction_bg.png); */
+    background-image: url(../../images/desktop_bg_section2.png);
+    background-size: cover;
+    /* background-position: center; */
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .instructionsContainer .instructionsBox {
+    position: relative;
+  }
+
+  /* step-1 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 34px 67px 34px;
+    max-width: 290px;
+    border-radius: 50px 0px 130px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .imageItemOne {
+    position: absolute;
+    bottom: -56px;
+    left: -35px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steponeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  /* step-2 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction {
+    position: absolute;
+    top: -22px;
+    left: 45%;
+    transform: translatex(-50%);
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 40px 30px 41px;
+    max-width: 392px;
+    border-radius: 50px 0px 130px 0px;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .steptwoInstruction_para1 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .imageItemTwo {
+    position: absolute;
+    bottom: -30px;
+    left: 35px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .steptwoInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  /* step-3 */
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction {
+    position: absolute;
+    top: -70px;
+    right: 0px;
+    /* left: 50%;
+transform: translatex(-50%); */
+    color: black;
+    background-color: white;
+    background: linear-gradient(
+      -20deg,
+      #ffffffb0 10%,
+      #ffffffb0 10%,
+      #fff,
+      #fff
+    );
+    padding: 26px 26px 35px 24px;
+    max-width: 400px;
+    border-radius: 50px 0 130px 0;
+    z-index: 999;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .imageItemThree {
+    position: absolute;
+    bottom: -45px;
+    right: -4px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p {
+    font-family: proxima_novasemibold, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    color: #000000;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para1,
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepthreeInstruction_para2 {
+    padding-bottom: 20px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber {
+    position: absolute;
+    top: -118px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3 {
+    font-size: 42px;
+    color: #107f3f26;
+    font-family: RealityCheck,sans-serif;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    .stepNumber
+    h3
+    span {
+    font-size: 132px;
+  }
+
+  .instructionsContainer
+    .instructionsBox
+    .instruectionSteps
+    .stepthreeInstruction
+    p
+    span {
+    font-family: proxima_novabold, sans-serif;
+    color: #107f3f;
+  }
+
+  .instructionsContainer .instructionsBox{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100vh;
+  }
+  
+.instructionsContainer .instructionsBox .instructions {
+  max-width: 695px;
+  margin-bottom: 60px;
+}
+.instructionsContainer .instructionsBox .instructions h2 {
+  font-family: RealityCheck, sans-serif;
+  color: #d0de4f;
+  font-size: 42px;
+  line-height: 65px;
+}
+
+.instructionsContainer .instructionsBox .instructions p {
+  font-family: proxima_novasemibold, sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 20px;
+}
+}
+
+/* common-sizes */
+.instructionsContainer .instructionsBox .instructions h2{
+  font-family: RealityCheck, sans-serif;
+}
+.tncmain {
+  color: #0c6386 !important;
+}
+
+.context {
+  color: #0c6386;
+  font-family: proxima_novasemibold, sans-serif;
+}
+
+.context span {
+  color: #000000;
+  font-family: proxima_novabold, sans-serif;
+}
+
+.contextContainer {
+  position: relative;
+}
+
+.contextContainer::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #7070704d;
+  height: 1px;
+}
+
+.subcontext {
+  margin-top: 30px;
+}
+
+.subcontext .description {
+  font-family: proxima_novasemibold, sans-serif;
+  line-height: 25px;
+  color: #4d4d4d;
+  text-transform: none;
+}
+
+.subcontext .description span {
+  font-family: proxima_novabold, sans-serif;
+  font-weight: 900;
+  color: #000000;
+}
+
+/* .instructionsContainer {
+  padding: 0px;
+  margin: 0px;
+  background-image: url(../../images/instruction_bg.png);
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+} */
